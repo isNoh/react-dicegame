@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/react-dicegame/static/css/main.a55de74c.css",
+    "main.js": "/react-dicegame/static/js/main.be6f1181.js",
+    "static/media/logo.png": "/react-dicegame/static/media/logo.79039993dddaa81a6c61.png",
+    "index.html": "/react-dicegame/index.html",
+    "main.a55de74c.css.map": "/react-dicegame/static/css/main.a55de74c.css.map",
+    "main.be6f1181.js.map": "/react-dicegame/static/js/main.be6f1181.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a55de74c.css",
+    "static/js/main.be6f1181.js"
+  ]
+}
