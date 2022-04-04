@@ -1,0 +1,172 @@
+.dice {
+  width: 800px;
+  height: 800px;
+  /* background-color: rgba(0, 0, 0, 0.3); */
+  position: relative;
+}
+
+.dice__hp {
+  display: flex;
+  justify-content: space-around;
+}
+
+input[type="range"] {
+  -webkit-appearance: none;
+  overflow: hidden;
+  width: 100%;
+  height: 10px;
+  background: transparent;
+  background: #e5e4e3;
+  border-radius: 25px;
+}
+
+input[type="range"]:focus {
+  outline: none;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 0px;
+  height: 0px;
+  background: #fff;
+  box-shadow: -100vw 0 0 100vw tomato;
+  border: 0.1px solid tomato;
+}
+
+.dice__board {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: relative;
+  z-index: -1;
+}
+
+.dice__row__box {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.bb {
+  left: 114px;
+}
+
+.cc {
+  left: 228px;
+}
+
+.dd {
+  left: 342px;
+}
+
+.ee {
+  left: 456px;
+}
+
+.ff {
+  left: 570px;
+}
+.gg {
+  left: 684px;
+}
+
+.hh {
+  left: 684px;
+  top: 114px;
+}
+
+.ii {
+  left: 684px;
+  top: 228px;
+}
+
+.jj {
+  left: 684px;
+  top: 342px;
+}
+
+.kk {
+  left: 684px;
+  top: 456px;
+}
+
+.ll {
+  left: 684px;
+  top: 570px;
+}
+
+.mm {
+  left: 684px;
+  top: 684px;
+}
+
+.nn {
+  top: 684px;
+  left: 570px;
+}
+
+.oo {
+  top: 684px;
+  left: 456px;
+}
+
+.pp {
+  top: 684px;
+  left: 342px;
+}
+
+.qq {
+  top: 684px;
+  left: 228px;
+}
+
+.rr {
+  top: 684px;
+  left: 114px;
+}
+
+.ss {
+  top: 684px;
+}
+
+.tt {
+  top: 570px;
+}
+
+.uu {
+  top: 456px;
+}
+
+.vv {
+  top: 342px;
+}
+
+.ww {
+  top: 228px;
+}
+
+.xx {
+  top: 114px;
+}
+
+.dice__row__box__value {
+  position: absolute;
+  font-weight: 600;
+  bottom: 10px;
+}
+
+.dice__row__box__novalue {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.2);
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
